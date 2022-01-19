@@ -16,6 +16,7 @@ urlpatterns = [
     path("users/", include("django_mocking.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
+    path("cats/", include("django_mocking.cats.urls")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
