@@ -5,6 +5,13 @@
 
 {% block content %}
 
-A random cat!
+<h2>A random cat!</h2>
+
+<ul>
+  <li>Image URL: {{ imgurl }}</li>
+  <li>Image ID: {{ id }}</li>
+</ul>
+
+<img src="{{ imgurl }}" alt="" width="70%">
 
 {% endblock content %}
