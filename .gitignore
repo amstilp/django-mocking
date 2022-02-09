@@ -272,3 +272,6 @@ tags
 django_mocking/media/
 
 .pytest_cache/
+
+# SQLite Database
+db.sqlite
